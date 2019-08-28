@@ -1,6 +1,7 @@
 ﻿capital = 558
 
 oob = SSC_1235
+load_focus_tree = generic_settler
 
 set_research_slots = 2
 
