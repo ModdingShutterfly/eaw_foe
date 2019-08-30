@@ -1,0 +1,45 @@
+ideas = {	
+
+	country = {
+		#settler nation
+		GR_settler_idea = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				
+			}
+		}
+		
+		GR_settler_idea.2 = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				conscription = 0.05
+				
+			}
+		}
+		
+		GR_settler_idea.3 = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				
+			}
+		}
