@@ -9,7 +9,7 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = { 
-		id = GR_STTLER_FOCUS
+		id = GR_SETTLER_FOCUS
 		icon = GFX_goal_unknown
 		x = 9
 		y = 0
@@ -22,6 +22,51 @@ focus_tree = {
 
 		completion_reward = {
 			 country_event = settler.1
+
+	}
+}
+
+focus = { 
+		id = GR_SETTLER_TRADE_FOCUS
+		icon = GFX_goal_unknown
+		x = 9
+		y = 1
+		cost = 1
+		
+		prerequisite = {
+        focus = GR_SETTLER_FOCUS
+    }
+
+		available_if_capitulated = no 
+		ai_will_do = { 
+			factor = 300
+		} 
+
+		completion_reward = {
+			 country_event = settler.2
+
+	}
+}
+
+focus = { 
+		id = GR_SETTLER_GOAL_FOCUS
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 1
+		
+		prerequisite = {
+        focus = GR_SETTLER_TRADE_FOCUS
+    }
+    
+
+		available_if_capitulated = no 
+		ai_will_do = { 
+			factor = 300
+		} 
+
+		completion_reward = {
+			country_event = settler.3
 
 	}
 }

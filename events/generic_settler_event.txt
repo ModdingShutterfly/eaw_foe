@@ -11,7 +11,7 @@ country_event = {
 	option = { 
 		name = settler.1.a
 		ai_chance = { factor = 10 }
-		 add_ideas = GR_settler_idea.3
+		 add_ideas = GR_settler_idea
 	}
 	
 	option = {
@@ -23,7 +23,55 @@ country_event = {
 	option = {
 		name = settler.1.c
          ai_chance = { factor = 10 }
-        add_ideas = GR_settler_idea
+        add_ideas = GR_settler_idea.3
+
+	}
+}
+
+country_event = {
+	id = settler.2
+	title = settler.2.t
+	desc = settler.2.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = settler.2.a
+		ai_chance = { factor = 10 }
+		 add_ideas =  free_trade
+	}
+	
+	option = {
+		name = settler.2.b
+        ai_chance = { factor = 10 }
+	    add_ideas = closed_economy
+	}
+	
+	country_event = {
+	id = settler.3
+	title = settler.3.t
+	desc = settler.3.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = settler.3.a
+		ai_chance = { factor = 10 }
+		 add_ideas = GR_settler_idea.4
+	}
+	
+	option = {
+		name = settler.3.b
+        ai_chance = { factor = 10 }
+	    add_ideas = GR_settler_idea.5
+	}
+	
+	option = {
+		name = settler.3.c
+         ai_chance = { factor = 10 }
+        add_ideas = GR_settler_idea.6
 
 	}
 }

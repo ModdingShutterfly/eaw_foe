@@ -43,3 +43,46 @@ ideas = {
 				
 			}
 		}
+		
+		GR_settler_idea.4 = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.10
+				
+			}
+		}
+		
+		GR_settler_idea.5 = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				justify_war_goal_time = -0.20
+				
+			}
+		}
+		
+		GR_settler_idea.6 = {
+		
+			allowed = {
+               is_settler_nation = yes # scripted triggers
+            }
+        
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				
+			}
+		}
