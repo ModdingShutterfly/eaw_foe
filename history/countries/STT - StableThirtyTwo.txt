@@ -1,5 +1,7 @@
 ﻿capital = 790
 
+load_focus_tree = generic_settler
+
 set_research_slots = 3
 
 set_technology = {
