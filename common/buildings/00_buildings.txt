@@ -13,6 +13,9 @@ buildings = {
 		infrastructure = yes
 		max_level = 10
 		value = 1
+
+		show_modifier = yes
+		max_fuel_building = 0.2 #k
 	}
 
 	arms_factory = {
@@ -25,6 +28,9 @@ buildings = {
 		shares_slots = yes
 		value = 8
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 0.2 #k
 	}
 
 	industrial_complex = {
@@ -37,6 +43,9 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 0.2 #k
 	}
 
 	air_base = {
@@ -46,6 +55,7 @@ buildings = {
 		air_base = yes
 		max_level = 10
 		value = 1
+		damage_factor = 0.5
 	}
 
 	naval_base = {
@@ -108,10 +118,14 @@ buildings = {
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4
+		only_costal = yes
 		max_level = 20
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 0.2 #k
 	}
 
 	anti_air_building = {
@@ -120,9 +134,9 @@ buildings = {
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
-		air_defence = 1
+		air_defence = 0.5
 		max_level = 5 # This is the max unlock level
-		damage_factor = 0.1
+		damage_factor = 0.3
 		value = 1
 	}
 
@@ -156,22 +170,28 @@ buildings = {
 		icon_frame = 14
 		local_resources_water = 2
 		refinery = yes
-		max_level = 5
+		max_level = 3
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 0.05 #k
 	}
 
 	electricity_generator = {
 		show_on_map = 0
 		base_cost = 10000
 		icon_frame = 15
-		local_resources_electricity = 2
+		local_resources_energy = 2
 		refinery = yes
-		max_level = 5
+		max_level = 3
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 1.0 #k
 	}
 
 	metal_generator = {
@@ -180,45 +200,12 @@ buildings = {
 		icon_frame = 16
 		local_resources_metal = 2
 		refinery = yes
-		max_level = 5
+		max_level = 3
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		max_fuel_building = 0.05 #k
 	}
-
-	#fuel_generator = {
-	#	show_on_map = 0
-	#	base_cost = 10000
-	#	icon_frame = 17
-	#	local_resources_fuel = 2
-	#	refinery = yes
-	#	max_level = 5
-	#	shares_slots = yes
-	#	value = 5
-	#	infrastructure_construction_effect = yes
-	#}
-
-	#electronics_generator = {
-	#	show_on_map = 0
-	#	base_cost = 10000
-	#	icon_frame = 18
-	#	local_resources_electronics = 2
-	#	refinery = yes
-	#	max_level = 5
-	#	shares_slots = yes
-	#	value = 5
-	#	infrastructure_construction_effect = yes
-	#}
-
-	#advanced_technology_generator = {
-	#	show_on_map = 0
-	#	base_cost = 10000
-	#	icon_frame = 19
-	#	local_resources_advanced_technology = 2
-	#	refinery = yes
-	#	max_level = 5
-	#	shares_slots = yes
-	#	value = 5
-	#	infrastructure_construction_effect = yes
-	#}
 }

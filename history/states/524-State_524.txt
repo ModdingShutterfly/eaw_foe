@@ -8,8 +8,8 @@ state={
 
 	resources = {
 		metal = 32
-		electronics = 4
-		electricity = 4
+		circuitry = 4
+		energy = 4
 	}
 
 	history={

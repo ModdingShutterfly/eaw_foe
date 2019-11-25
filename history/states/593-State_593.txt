@@ -8,10 +8,9 @@ state={
 
 	resources = {
 		metal = 4
-		fuel = 14
-		electronics = 6
-		electricity = 2
-		advanced_technology = 12
+		circuitry = 6
+		energy = 4
+		advanced = 12
 	}
 
 	history={
