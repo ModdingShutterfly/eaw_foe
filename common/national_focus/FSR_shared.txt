@@ -842,7 +842,10 @@ shared_focus = {
 				limit = {
 					has_idea = FSR_scribe_integration
 				}
-				swap_ideas = { remove_idea = FSR_scribe_integration  add_idea = FSR_nuscribes }
+				swap_ideas = { 
+					remove_idea = FSR_scribe_integration  
+					add_idea = FSR_nuscribes 
+				}
 				
 				else = {
 					swap_ideas = { remove_idea = ranger_scribes  add_idea = FSR_nuscribes }
@@ -2053,7 +2056,7 @@ shared_focus = {
 			name = infantry_weapons_bonus
 			bonus = 0.5
 			uses = 1
-			category = anti_personnel_tech
+			category = support_fireteam_tech_category
 			}
 			
 			add_tech_bonus = {
@@ -2087,7 +2090,7 @@ shared_focus = {
 			name = infantry_weapons_bonus
 			bonus = 1.0
 			uses = 1
-			category = energy_weaponry_tech
+			category = energy_weaponry_tech_category
 			}
 			
 		}
@@ -2114,7 +2117,7 @@ shared_focus = {
 			bonus = 1.0
 			uses = 1
 			ahead_reduction = 2
-			category = power_armor_tech
+			category = power_armor_tech_category
 			}
 			
 		}
@@ -2162,7 +2165,7 @@ shared_focus = {
 			name = robotics_tech_bonus
 			bonus = 0.5
 			uses = 2
-			category = robotics_tech
+			category = robotics_tech_category
 			}
 			
 		}
@@ -2188,7 +2191,7 @@ shared_focus = {
 				name = recon_bonus
 				bonus = 1.0
 				uses = 2
-				category = land_doctrine
+				category = cat_land_doctrine
 			}
 			
 		}
@@ -2284,7 +2287,7 @@ shared_focus = {
 				name = explosive_bonus
 				bonus = 0.5
 				uses = 2
-				category = explosive_tech
+				category = support_demolitions_tech_category
 			}
 			
 		}
@@ -2310,7 +2313,7 @@ shared_focus = {
 				name = recon_bonus
 				bonus = 0.5
 				uses = 2
-				category = recon_tech
+				category = support_recon_tech_category
 			}
 			
 		}
@@ -2477,7 +2480,7 @@ shared_focus = {
 				name = anti_personnel_bonus
 				bonus = 0.5
 				uses = 2
-				category = anti_personnel_tech
+				category = support_fireteam_tech_category
 			}
 			
 		}
@@ -2503,7 +2506,7 @@ shared_focus = {
 				name = anti_tank_bonus
 				bonus = 0.5
 				uses = 2
-				category = anti_tank_tech
+				category = support_anti_tank_tech_category
 			}
 			
 		}
@@ -2579,7 +2582,7 @@ shared_focus = {
 				name = chem_bonus
 				bonus = 0.5
 				uses = 2
-				category = chem_tech
+				category = support_medical_tech_category
 			}
 			
 		}
@@ -2661,7 +2664,7 @@ shared_focus = {
 				name = fighter_bonus
 				bonus = 1.0
 				uses = 1
-				category = light_fighter
+				category = light_air_tech_category
 			}
 			add_equipment_to_stockpile = {
 				type = fighter_equipment
@@ -2692,7 +2695,7 @@ shared_focus = {
 				name = cas_bonus
 				bonus = 1.0
 				uses = 1
-				category = cas_bomber
+				category = cas_bomber_tech_category
 			}
 			add_equipment_to_stockpile = {
 				type = cas_equipment_1

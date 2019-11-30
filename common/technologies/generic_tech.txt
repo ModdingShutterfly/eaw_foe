@@ -295,16 +295,8 @@ technologies = {
 
 	tech_generic_l2 = {
 
-		category_all_artillery = {
+		category_artillery = {
 			soft_attack = 0.05
-		}
-
-		category_all_at = {
-			hard_attack = 0.05
-		}
-
-		category_all_aa = {
-			air_attack = 0.05
 		}
 
 		path = {
@@ -344,7 +336,7 @@ technologies = {
 
 	tech_generic_l3 = {
 
-		category_mechanical = {
+		category_vehicles = {
 			maximum_speed = 0.06
 			supply_consumption = 0.01
 		}
@@ -559,7 +551,7 @@ technologies = {
 
 	tech_generic_r3 = {
 
-		category_all_planes = {
+		category_air_unit = {
 			air_agility = 0.06
 			reliability = -0.01
 		}

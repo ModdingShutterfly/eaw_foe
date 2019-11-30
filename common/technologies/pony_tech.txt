@@ -76,7 +76,7 @@ technologies = {
 	#Earth Pony Sappers
 	tech_pony_misc3 = {
 
-		engineer = {
+		category_support_robots = {
 			supply_consumption_factor = -0.2
 		}
 
@@ -379,12 +379,6 @@ technologies = {
 				load_oob = "unlock_pegasi"
 			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-			hidden_effect = {
-				if = {
-					limit = { has_country_flag = special_forces_magical_weapons }
-					set_technology = { magical_weapons_pegasi = 1 }
-				}
-			}
 		}
 
 		path = {
