@@ -6,7 +6,6 @@ load_focus_tree = redeye_focus
 set_research_slots = 2
 
 set_technology = {
-	pony_race = 1
 	tribal_civilization = 1
 	settled_civilization = 1
 }

@@ -39,4 +39,4 @@ dependencies={
 	"Equestria at War"
 }
 supported_version="1.8.1"
-path="C:/Users/Admin/Documents/Paradox Interactive/Hearts of Iron IV/mod/eaw_foe"
+path="mod/eaw_foe"

@@ -5,7 +5,6 @@ set_research_slots = 3
 oob = FSR_1235
 
 set_technology = {
-	pony_race = 1
 	tribal_civilization = 1
 	settled_civilization = 1
 	scientific_civilization = 1

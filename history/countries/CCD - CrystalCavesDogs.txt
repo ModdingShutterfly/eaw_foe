@@ -3,7 +3,6 @@
 set_research_slots = 2
 
 set_technology = {
-	diamond_dog_race = 1
 	tech_ironpaws = 1
 	tribal_civilization = 1
 }
